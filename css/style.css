@@ -38,7 +38,7 @@ vertical-align: middle;
 margin-left: 14px;
 }
 
-a{
+.link{
 color: #2F343B;
 text-decoration: none;
 font-size: 25px;
@@ -55,7 +55,7 @@ display: inline-block;
   margin-top: 12px;
 }
 
-a:hover{
+.link:hover{
   -webkit-transition: all 0.5s;
   text-decoration: none;
   color: #703030;
@@ -69,7 +69,6 @@ img:hover{
   text-decoration: none;
   color: #703030;
   background-color: #2F343B;
-  padding: 5px;
 
 }
 
@@ -106,7 +105,7 @@ vertical-align: middle;
   font-family: 'Shrikhand', cursive;
   background-color: #E3CDA4;
   padding-top: 125px;
-  padding-bottom: 600px;
+  padding-bottom: 56px;
 }
 
 p {
@@ -140,4 +139,17 @@ p {
     opacity: 0;
     transform: translateY(20px);
   }
+}
+
+.backdrop{
+  width: 500px;
+margin-top: 50px;
+}
+
+.projectcontainer{
+  text-align: center;
+  font-size: 35px;
+  color: #E3CDA4;
+  font-family: 'Bungee Inline', cursive;
+  margin-top: -20px;
 }
