@@ -1,0 +1,143 @@
+html, body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #2F343B;
+}
+
+.container{
+  text-align: center;
+  font-size: 35px;
+  color: #E3CDA4;
+  font-family: 'Bungee Inline', cursive;
+  border: 40px solid #703030;
+  margin-top: -20px;
+}
+
+.picture{
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 300px;
+  border:25px solid #703030;
+  -webkit-transition: all 0.5s;
+}
+
+.nav{
+background-color: #703030;
+margin: 0;
+padding: 0;
+
+}
+
+.nav-link{
+display: inline-block;
+padding: 25px;
+font-family: 'Bungee Inline', cursive;
+height: 50px;
+vertical-align: middle;
+margin-left: 14px;
+}
+
+a{
+color: #2F343B;
+text-decoration: none;
+font-size: 25px;
+-webkit-transition: all 0.5s;
+display: inline-block;
+}
+
+.nav-icon{
+  font-family: none;
+  padding: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 14px;
+  margin-top: 12px;
+}
+
+a:hover{
+  -webkit-transition: all 0.5s;
+  text-decoration: none;
+  color: #703030;
+  background-color: #2F343B;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+img:hover{
+
+  text-decoration: none;
+  color: #703030;
+  background-color: #2F343B;
+  padding: 5px;
+
+}
+
+.wallpaper{
+  width: 500px;
+  border-radius: 25px;
+  border:25px solid #703030;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.right-align {
+  float: right;
+}
+
+.nav-icon{
+display: inline-block;
+padding: 25px;
+height: 50px;
+vertical-align: middle;
+}
+
+.lower{
+  text-align: center;
+  font-size: 25px;
+  color: #2F343B;
+  font-family: 'Shrikhand', cursive;
+  background-color: #E3CDA4;
+  padding-top: 125px;
+  padding-bottom: 600px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+#arrowdown {
+  background-color: inherit;
+  border: 0;
+  cursor: pointer;
+  animation: downAnim 2s infinite;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+@keyframes downAnim {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
